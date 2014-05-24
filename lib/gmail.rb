@@ -3,7 +3,7 @@ require 'net/smtp'
 require 'mail'
 require 'date'
 require 'time'
-require 'mime'
+#require 'mime'
 
 if RUBY_VERSION < "1.8.7"
   require "smtp_tls"
